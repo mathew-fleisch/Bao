@@ -1,8 +1,8 @@
 <html>
 <head>
 <title>Bao</title>
-<link rel="stylesheet" href="style.css" />
-<script type="text/javascript" src="jquery-3.0.0.min.js"></script>
+<link rel="stylesheet" href="css/style.css" />
+<script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
 <?php 
 $max_row = 4;
 $max_col = 8; 
@@ -21,7 +21,7 @@ var player  = <?php echo $player; ?>;
 var ply_brd = <?php echo $ply_brd; ?>;
 var ply_pos = <?php echo $ply_pos; ?>;
 </script>
-<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 </head>
 <h1>Bao</h1>
 <body>
