@@ -23,7 +23,7 @@ var ply_pos = <?php echo $ply_pos; ?>;
 </script>
 <script type="text/javascript" src="js/script.js"></script>
 </head>
-<h1>Bao</h1>
+<h1>Babo's Bao</h1>
 <body>
 	<div id="game">
 <?php
@@ -40,7 +40,7 @@ var ply_pos = <?php echo $ply_pos; ?>;
 					$ply_pos++;
 				}
 
-				echo '<div class="bin ply_'.$player.' p_'.$ply_pos.'"><span class="bin-text">'.$ply_pos.'</span>';
+				echo '<div class="bin c_'.$col.' ply_'.$player.' p_'.$ply_pos.'"><span class="bin-text">'.$ply_pos.'</span>';
 				// echo '<div class="bin '.($ply_pos == $bank ? 'bank' : '').' ply_'.$player.' p_'.$ply_pos.'"><span class="bin-text">'.$ply_pos.'</span>';
 				// echo '<div class="bin '.($ply_pos == $bank ? 'bank' : '').' r_'.$row.' c_'.$col.' ply_'.$player.' p_'.$ply_pos.'"><span class="bin-text">'.$ply_pos.'</span>';
 				for($i = 0; $i < $max_bns; $i++) { echo '<div class="bean">&nbsp;</div>'; }
